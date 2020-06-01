@@ -136,6 +136,7 @@ a .fab {
 ul.job-description > li:before{
   content: "✔";
   padding-right: 0.5em;
+  margin: 1em;
   color: #509e98;
 }
 
