@@ -133,13 +133,12 @@ a .fab {
   text-decoration: underline;
 }
 
-ul.job-description li:before{
+ul.job-description > li:before{
   content: "✔";
   padding-right: 0.5em;
   color: #509e98;
 }
-ol li:before{
-  content: "";
+
 
 }
 footer {
