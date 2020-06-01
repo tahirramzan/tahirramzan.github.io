@@ -139,9 +139,8 @@ ul.job-description li:before{
   color: #509e98;
 }
 ol li:before{
-  content: none;
-  padding-right: 0.5em;
-  color: #509e98;
+  content: "";
+
 }
 footer {
  padding: 1em 1.5em;
