@@ -133,10 +133,15 @@ a .fab {
   text-decoration: underline;
 }
 
+ul.job-description > li{
+
+  margin: 1.5em;
+
+}
+
 ul.job-description > li:before{
   content: "✔";
   padding-right: 0.5em;
-  margin: 1em;
   color: #509e98;
 }
 
