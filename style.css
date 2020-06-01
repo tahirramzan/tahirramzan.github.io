@@ -118,7 +118,7 @@ a .fab {
   list-style-type: none;
 }
 
-.skills .column ul > li:before {
+.skills .activities ul > li:before {
   content: "►";
   padding-right: 0.5em;
   color: #509e98;
