@@ -83,7 +83,10 @@ main section:not(:last-child) {
 a .fab {
   color: white;
 }
-
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .course, .skills {
   display: -ms-flexbox;
   display: flex;
