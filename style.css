@@ -83,10 +83,7 @@ main section:not(:last-child) {
 a .fab {
   color: white;
 }
-div {
-  text-align: justify;
-  text-justify: inter-word;
-}
+
 .course, .skills {
   display: -ms-flexbox;
   display: flex;
@@ -111,6 +108,9 @@ div {
   padding-left: 1em;
 }
 
+p{text-align: justify;
+  text-justify: inter-word;}
+
 .skills .column {
   -ms-flex: 0 0 50%%;
   flex: 0 0 50%;
@@ -125,6 +125,11 @@ div {
   content: "►";
   padding-right: 0.5em;
   color: #509e98;
+}
+
+.skills .activities ul > li {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .school, .job-title {
