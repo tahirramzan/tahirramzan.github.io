@@ -146,7 +146,10 @@ ul.job-description > li{
   margin-bottom: 2.5em;
 
 }
-
+ul.job-description > li{
+   text-align: justify;
+  text-justify: inter-word;
+}
 ul.job-description > li:before{
   content: "✔";
   padding-right: 0.5em;
