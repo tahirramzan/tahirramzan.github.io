@@ -108,6 +108,10 @@ a .fab {
   padding-left: 1em;
 }
 
+header p{text-align: center;
+}
+
+
 p{text-align: justify;
   text-justify: inter-word;}
 
